@@ -1,106 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>About MacBook</title>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>About MacBook</title>
+</head>
 
-    <style>
-        title{
-            font-family:fantasy;
-            font-size: x-large;
-        }
-        h1{
-           font-family:fantasy; 
-           font-size:90px;
-           color:deeppink;
-           text-align:center;
-        } 
-        body{
-            background-color: rgb(153, 203, 245);
-        }
-        .first-list{
-            color:deeppink
-        }
-        .h2-1{
-            background-color:dodgerblue;
-            color:white;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 25px;
-        }
-        img{
-            width: 300px;
-        }
-        .ul-1{
-            color:fuchsia
-        }
-        .second-list{
-            color:azure
-        }
-        .h2-2{
-            background-color:rgb(202, 255, 79);
-            color:rgb(48, 123, 221);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size:25px
-        }
-        .ul-2{
-            color:azure
-        }
-        .third-list{
-            color:mediumblue
 
-        }
-        .h2-3{
-            background-color: darksalmon;
-            color:yellow;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size:25px
-        }
-        .ul-3{
-            color: mediumblue;
-        }
-        .fourth-list{
-            color:blueviolet
-        }
-        .h2-4{
-            background-color:orange; 
-            color:deeppink; 
-            font-family: Arial, Helvetica, sans-serif; 
-            font-size:25px
-        }
-        .ul-4{
-            color:blueviolet
-        }
-        .fifth-list{
-            color: rgb(0, 140, 255)
-        }
-        .h2-5{
-            background-color:crimson;
-            color:whitesmoke;
-            font-family: Arial, Helvetica,sans-serif;
-            font-size:25px
-        }
-        .ul-5{
-            color: rgb(0, 140, 255)
-        }
-        #table-title{
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color:hotpink;
-        }
-        .milestones{ 
-            background-color:aliceblue 
-        }
-        tr{
-            border:2px solid black;
-        }
-        th{
-            border:2px solid black;
-        }
-        td{
-            border:2px solid black;
-        }
-
-       
-
-    </style>
+    
 
     <h1>The Evolution of MacBooks</h1>
 
@@ -109,7 +16,7 @@
         <li class=first-list>
             <h2 class=h2-1>1991: Powerbook 100 Released</h2>
             <a href="https://www.cultofmac.com/450320/today-apple-history-powerbook-100-series-smash-hit/">
-                <img src="https://www.cultofmac.com/wp-content/uploads/2016/10/Powerbook_100.jpg">
+                <img class="tooltip1" src="https://www.cultofmac.com/wp-content/uploads/2016/10/Powerbook_100.jpg">
             </a>
         
             <p><strong>Source:Luke Dormehl, PowerBook 100 fueled a laptop revolution, cultofmac.com</strong></p>
@@ -121,7 +28,7 @@
         <li class=second-list>
             <h2 class=h2-2>1994: Powerbook 500 Released</h2>
             <a href="https://en.wikipedia.org/wiki/PowerBook_500_series">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/540c_open.jpg/220px-540c_open.jpg">
+                <img class="tooltip2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/540c_open.jpg/220px-540c_open.jpg">
             </a>
                 <p><strong> Source:PowerBook 500 series, Wikipedia.org</strong></p>
                 <li class=ul-2>Released: May 1994</li>
@@ -132,7 +39,7 @@
         <li class=third-list>
             <h2 class=h2-3>1999: iBook G3 Released</h2>
             <a href="https://www.computinghistory.org.uk/det/62048/Apple-iBook-G3-366-(Grey)/">
-                <img src="https://www.computinghistory.org.uk/userdata/images/medium/35/54/product-123554.jpg">
+                <img class="tooltip3" src="https://www.computinghistory.org.uk/userdata/images/medium/35/54/product-123554.jpg">
             </a>
                 <p><strong>Source:Apple iBook G3/366 (Grey), computinghistory.org</strong></p>
                 <li class=ul-3>Released: June 21, 1999</li>
@@ -145,7 +52,7 @@
         <li class=fourth-list>
             <h2 class=h2-4>2001:Powerbook Titanium G4 Released</h2>
             <a href="https://everymac.com/systems/apple/powerbook_g4/specs/powerbook_g4_500.html">
-                <img src="https://everymac.com/images/cpu_pictures/apple_powerbook_g4.jpg">
+                <img class="tooltip4" src="https://everymac.com/images/cpu_pictures/apple_powerbook_g4.jpg">
             </a>
             <p><strong>Source:Apple PowerBook G4 500 (Original - Ti) Specs, everymac.com</strong></p>
             <li class=ul-4>Released: January 2001 </li>
@@ -156,9 +63,9 @@
         </li>
 
         <li class=fifth-list>
-            <h2 class=h2-5>2008: MacBook Air Released</h2>
+            <h2 >2008: MacBook Air Released</h2>
             <a href="https://reviewed.usatoday.com/laptops/content/apple-m1-macbook-air-2020-review">
-                <img src="https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg">
+                <img class="tooltip5" src="https://reviewed-com-res.cloudinary.com/image/fetch/s--pM3BRbA_--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1607081088000/DSC_0877.jpg">
                 </a>
             <p><strong>Source:Adrien Ramirez, Apple Macbook Air, usatoday.com</strong></p>
             <li class=ul-5>Released: January 2008</li>
@@ -169,11 +76,11 @@
     <h2 id=table-title><strong>Milestones</strong></h2>
     <table class=milestones>
         <tr>
-            <th>blank</th>
-            <th>blank</th>
-            <th>blank</th>
-            <th>blank</th>
-            <th>blank</th>
+            <th><a href="powerbook100released.html">Milestone 1</a></th>
+            <th><a href="powerbook500released.html">Milestone 2</a></th>
+            <th><a href="ibookG3released.html">Milestone 3</a></th>
+            <th><a href="powerbooktitaniumG4released.html">Milestone 4</a></th>
+            <th><a href="macbookairreleased.html">Milestone 5</a></th>
         </tr>
 
         <tr>
