@@ -136,8 +136,15 @@
             }
         }
 
-       .tooltip1:hover::after{
-            content:"First Laptop";
-            position: right;
-        }
        
+       
+
+        
+       .tooltip1{
+        visibility: hidden;
+       }
+
+        .tooltip1:hover {
+            visibility: visible;
+            color: white;
+          }
