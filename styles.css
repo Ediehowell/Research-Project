@@ -13,7 +13,7 @@
             background-color: rgb(255, 115, 0);
         }
         .first-list{
-            color:deeppink
+            color:rgb(126, 0, 67)
         }
         .h2-1{
             background-color:dodgerblue;
@@ -25,7 +25,7 @@
             width: 300px;
         }
         .ul-1{
-            color:fuchsia
+            color:rgb(134, 2, 134)
         }
         .second-list{
             color:azure
@@ -63,13 +63,15 @@
         }
         .ul-4{
             color:blueviolet
+            
         }
         .fifth-list{
             color: rgb(0, 140, 255)
+            
         }
         .h2-5{
-            background-color:crimson;
-            color:whitesmoke;
+            background-color:rgb(20, 213, 220);
+            color:rgb(245, 245, 245);
             font-family: Arial, Helvetica,sans-serif;
             font-size:25px
         }
