@@ -11,6 +11,7 @@
         } 
         body{
             background-color: rgb(255, 115, 0);
+            background-color: rgb(252, 171, 228);
         }
         .first-list{
             color:rgb(126, 0, 67)
@@ -100,10 +101,13 @@
             margin-left: auto;
             margin-right: auto;
             width: 30%;
+            width: 500px;
         }
 
         p{
             text-align: center;
+            text-align: left;
+            font-family: cursive;
         }
         
         div.header {
