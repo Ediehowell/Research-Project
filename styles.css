@@ -1,0 +1,152 @@
+
+        title{
+            font-family:fantasy;
+            font-size: x-large;
+        }
+        h1{
+           font-family:fantasy; 
+           font-size:90px;
+           color:deeppink;
+           text-align:center;
+        } 
+        body{
+            background-color: rgb(255, 115, 0);
+        }
+        .first-list{
+            color:rgb(126, 0, 67)
+        }
+        .h2-1{
+            background-color:dodgerblue;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        img{
+            width: 300px;
+        }
+        .ul-1{
+            color:rgb(134, 2, 134)
+        }
+        .second-list{
+            color:azure
+        }
+        .h2-2{
+            background-color:rgb(202, 255, 79);
+            color:rgb(48, 123, 221);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:25px
+        }
+        .ul-2{
+            color:azure
+        }
+        .third-list{
+            color:mediumblue
+
+        }
+        .h2-3{
+            background-color: darksalmon;
+            color:yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:25px
+        }
+        .ul-3{
+            color: mediumblue;
+        }
+        .fourth-list{
+            color:blueviolet
+        }
+        .h2-4{
+            background-color:orange; 
+            color:deeppink; 
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size:25px
+        }
+        .ul-4{
+            color:blueviolet
+            
+        }
+        .fifth-list{
+            color: rgb(0, 140, 255)
+            
+        }
+        .h2-5{
+            background-color:rgb(20, 213, 220);
+            color:rgb(245, 245, 245);
+            font-family: Arial, Helvetica,sans-serif;
+            font-size:25px
+        }
+        .ul-5{
+            color: rgb(0, 140, 255)
+        }
+        #table-title{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:rgb(163, 105, 255);
+        }
+        .milestones{ 
+            background-color:aliceblue 
+        }
+        tr{
+            border:2px solid black;
+        }
+        th{
+            border:2px solid black;
+        }
+        td{
+            border:2px solid black;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+
+        p{
+            text-align: center;
+        }
+        
+        div.header {
+            text-align: center;
+            color:red;
+            font-size: 40px;
+            font-family: fantasy;
+        }
+
+        div.header:hover {
+            text-align: center;
+            animation: colorchange 2s forwards;
+            color:red;
+            font-size: 40px;
+            font-family: fantasy;
+            
+        }
+
+        @keyframes colorchange {
+            from {
+                color:red;
+                text-align: center;
+                font-size: 40px;
+                font-family: fantasy;
+            }
+            
+            to {
+                color:skyblue;
+                text-align: center;
+                font-size: 40px;
+                font-family: fantasy;
+            }
+        }
+
+       
+       
+
+        
+       .tooltip1{
+        visibility: hidden;
+       }
+
+        .tooltip1:hover {
+            visibility: visible;
+            color: white;
+          }
